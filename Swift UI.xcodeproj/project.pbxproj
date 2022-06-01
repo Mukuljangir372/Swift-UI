@@ -13,6 +13,10 @@
 		2599558328477B1B00C5FC5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2599558228477B1B00C5FC5A /* Preview Assets.xcassets */; };
 		2599558A28477B5B00C5FC5A /* TextUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2599558928477B5B00C5FC5A /* TextUI.swift */; };
 		2599558C284784C400C5FC5A /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2599558B284784C400C5FC5A /* Images.swift */; };
+		2599558E2847893700C5FC5A /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2599558D2847893700C5FC5A /* Buttons.swift */; };
+		259955902847899100C5FC5A /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2599558F2847899100C5FC5A /* Stacks.swift */; };
+		2599559228478C4700C5FC5A /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2599559128478C4700C5FC5A /* Lists.swift */; };
+		259955942847901600C5FC5A /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259955932847901600C5FC5A /* States.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		2599558228477B1B00C5FC5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2599558928477B5B00C5FC5A /* TextUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUI.swift; sourceTree = "<group>"; };
 		2599558B284784C400C5FC5A /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		2599558D2847893700C5FC5A /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		2599558F2847899100C5FC5A /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
+		2599559128478C4700C5FC5A /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
+		259955932847901600C5FC5A /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +63,16 @@
 		2599557A28477B1A00C5FC5A /* Swift UI */ = {
 			isa = PBXGroup;
 			children = (
+				2599559128478C4700C5FC5A /* Lists.swift */,
 				2599557B28477B1A00C5FC5A /* Swift_UIApp.swift */,
 				2599557D28477B1A00C5FC5A /* ContentView.swift */,
 				2599557F28477B1B00C5FC5A /* Assets.xcassets */,
 				2599558128477B1B00C5FC5A /* Preview Content */,
 				2599558928477B5B00C5FC5A /* TextUI.swift */,
 				2599558B284784C400C5FC5A /* Images.swift */,
+				2599558D2847893700C5FC5A /* Buttons.swift */,
+				2599558F2847899100C5FC5A /* Stacks.swift */,
+				259955932847901600C5FC5A /* States.swift */,
 			);
 			path = "Swift UI";
 			sourceTree = "<group>";
@@ -143,6 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				259955902847899100C5FC5A /* Stacks.swift in Sources */,
+				2599558E2847893700C5FC5A /* Buttons.swift in Sources */,
+				2599559228478C4700C5FC5A /* Lists.swift in Sources */,
+				259955942847901600C5FC5A /* States.swift in Sources */,
 				2599558A28477B5B00C5FC5A /* TextUI.swift in Sources */,
 				2599558C284784C400C5FC5A /* Images.swift in Sources */,
 				2599557E28477B1A00C5FC5A /* ContentView.swift in Sources */,
